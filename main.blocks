@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="%H9jE}fcvt@:4RQ_%A{u" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="Iq9U-rdq_d~b7Dy0BHiJ"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="3dwXzzB%cn(R.je5.oh+"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="%.h]4:%n)oJ(sUgScaQw" x="279" y="56"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play" id="7nd(5pbP]VV,wMRJEkXb"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="music_tone_playable" id="qfZAujI:?8D5]#Ytb9:?"><value name="note"><shadow type="device_note" id="C_o^)GK8Au+#oaa[wGE1"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="4I*d4SV*zhe.]WG:^8Eh"><field name="fraction">BeatFraction.Sixteenth</field></shadow></value></shadow></value></block></statement></block><block type="device_temperature" id="`XheMGpVfs+VzeQ?2%!," disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="670" y="268"></block><block type="device_button_event" id="]05N4i:1ShL@vVbU;Q!K" x="251" y="315"><field name="NAME">Button.B</field></block></xml>
